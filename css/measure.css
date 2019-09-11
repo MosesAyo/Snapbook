@@ -1,0 +1,138 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+  }
+  
+  a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+  }
+
+  .measurement_uint{
+    display: inline-block;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .measurement_unit--units{
+    float: right;
+  }
+  .measure_in--cm{
+    padding: 0.3rem;
+    height: 2rem;
+    width: 2rem;
+    color: white;
+    background-color: #00A2FF;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .measure_in--inch{
+    padding: 0.3rem;
+    height: 2rem;
+    width: 2rem;
+    color: #6E6E6E;
+    background-color: #DBDBDB;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  #navbar {
+    background: white;
+    color: rgb(13, 26, 38);
+    position: fixed;
+    top: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100vw;
+    z-index: 10;
+    /* box-shadow: 0 10px 15px -8px rgba(90, 90, 90, 0.493); */
+  }
+
+  .navbar_content{
+    display: inline-block;
+    float: left;
+  }
+
+  .navbar_content i{
+    font-size: 1.35rem;
+  }
+  
+  .nav-wrapper {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+  } 
+
+  /* .upload_card_container{
+      padding-top: 100rem;
+      border: 1px solid black;
+      background-color: red;
+  } */
+
+  .part_measurement{
+    margin-bottom: 1rem;
+    margin-left: 5%;
+    width: 90%;
+    height: 3rem;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 10px;
+    padding-right: 5px;
+    padding-left: 1rem;
+  }
+
+  .part_measurement--text_box input{
+    border: 1px solid rgb(131, 131, 131);
+    width: 4rem;
+    height: 2.2rem;
+    position: relative;
+    top: 0.3rem;
+    border-radius: 8px;
+    float: right;
+  }
+
+  .part_measurement--measeurement{
+    position: relative;
+    top: 0.5rem;
+    font-size : 1.3rem;
+  }
+
+  .partmeasurement--submit_button{
+    padding: 0.5rem;
+    font-size: 1.08rem;
+    border-radius: 0.5rem;
+    background-color: #00A2FF;
+    color: white;
+    box-shadow: 0 0px 10px 0 rgba(7, 66, 116, 0.658);
+    margin-top: 1rem;
+    margin-left: 6rem;
+  }
+
+  .snapbook-text{
+    font-size: 1.5rem;
+    color: rgb(92, 92, 92);
+}
+
+.upload_card--container{
+  margin-top: 5rem;
+}
+
+  .upload_card{
+      float: left;
+      margin-left: 5%;
+      width: 42.5%;
+      height: 159px;
+      border: 1px solid white;
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 0px 20px 0 rgba(124, 124, 124, 0.397);
+  }

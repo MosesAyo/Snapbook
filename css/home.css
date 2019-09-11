@@ -1,0 +1,149 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+  }
+  
+  a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+  }
+
+  .add-button{
+      margin-top: 5rem;
+      width: 4.5rem;
+      height: 4.5rem;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      box-shadow: 0 0px 15px 0px rgba(90, 90, 90, 0.493);
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin: 2em;
+      background-color: #ffffff;
+  }
+
+  .add-button .plus {
+      position: relative;
+      left: 1rem;
+      bottom: 0.8rem;
+      font-size: 4rem;
+      color: rgb(129, 129, 129);
+      font-weight: 400 !important;
+  }
+
+  .add-button a:hover{
+      text-decoration: none;
+  }
+
+  .add-button:hover {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0 0px 5px 0 rgb(90, 90, 90, 0.493);
+}
+
+.add_mesurement{
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.client_card {
+    height: 5rem;
+    width: 90%;
+    border: 1px solid #ffffff;
+    margin-left: 5%;
+    border-radius: 1rem;
+    box-shadow: 0 0px 5px 0 rgb(90, 90, 90, 0.493);
+}
+
+.delete_user{
+    float: right;
+    margin-right: 1rem;
+    font-size: 1.8rem;
+    position: relative;
+    top: 1rem;
+    color: rgb(209, 9, 9);
+}
+
+  /*======================================================
+                            Navbar
+    ======================================================*/
+  #navbar {
+    background: white;
+    color: rgb(13, 26, 38);
+    position: fixed;
+    top: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100vw;
+    z-index: 10;
+    box-shadow: 0 10px 15px -8px rgba(90, 90, 90, 0.493);
+  }
+  
+  .nav-wrapper {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+  } 
+  
+  
+  .logo {
+    float: left;
+    font-size: 1.5em;
+    height: 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    top: 0.3rem;
+    border: 1px solid rgb(148, 148, 148);
+    
+  }
+
+  .logo i {
+      position: relative;
+      bottom: 0.3rem;
+      color: rgb(148, 148, 148);
+  }
+
+  .snapbook-text{
+      font-size: 1.5rem;
+      color: rgb(92, 92, 92);
+  }
+
+  .user_icon-container{
+      width: 3rem;
+      height: 3rem;
+      border: 1px solid rgb(148, 148, 148);
+      border-radius: 50%;
+      background-color: white;
+      position : relative;
+      top: 1rem;
+      left: 1rem;
+      display : inline-block;
+  }
+
+  .user_icon-container i {
+      position: relative;
+      top: 0.5rem;
+      left: 0.8rem;
+      font-size: 1.5rem;
+      color:rgb(148, 148, 148)
+  }
+
+  .user_name{
+      position: relative;
+      top: 1.4rem;
+      left: 2rem;
+      font-size: 1.3rem;
+  }
